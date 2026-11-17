@@ -1,11 +1,11 @@
 describe('Orange HRM Tests', () => {
   
   const selectorslist = {
-    usernameField = '[name="username"]',
-    passwordField = '[name="password"]',
-    loginButton = '.oxd-button',
-    sectionTitleTopBar = '.oxd-topbar-header-breadcrumb > .oxd-text',
-    wrongCredentialAlert = '.oxd-alert-content > .oxd-text'
+    usernameField: '[name="username"]',
+    passwordField: '[name="password"]',
+    loginButton:'.oxd-button',
+    sectionTitleTopBar: '.oxd-topbar-header-breadcrumb > .oxd-text',
+    wrongCredentialAlert: '.oxd-alert-content > .oxd-text'
   }
   
   it('login - sucess', () => {
